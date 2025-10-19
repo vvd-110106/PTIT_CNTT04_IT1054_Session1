@@ -1,0 +1,109 @@
+EXERCISE1
+    Loại hệ thống thông tin tương ứng của: Giao dịch bán hàng - TPS
+    Loại hệ thống thông tin tương ứng của: Phân tích xu hướng kinh doanh - DSS
+    Loại hệ thống thông tin tương ứng của: Bảng tổng quan hiệu suất hàng tháng dành cho CEO -EIS
+
+EXERCISE2
+    A: Phần mềm quản lý điểm cho trường cấp 2, yêu cầu rõ ràng
+        Mô hình: Waterfall (vì phần mềm đã có yêu cầu rõ ràng, ít thay đổi nên cứ phát triển theo các bước tuần tự từ trên xuống dưới )
+
+    B: Ứng dụng mobile đặt lịch khám bệnh, yêu cầu linh hoạt
+        Mô hình: Agile (vì ứng dụng yêu cầu linh hoạt, thay đổi thường xuyên. Nên là làm theo mô hình Agile để chia dự án thành nhiều vòng nhỏ. 
+                    Dể sau mỗi vòng sẽ kiểm tra rồi nhận phản hồi và để rồi điều chỉnh, cải tiến )
+
+    C: Hệ thống ngân hàng điện tử có bảo mật và độ phức tạp cao
+        Mô hình: Spiral (vì hệ thống phức tạp, liên quan đến an toàn và rủi ro. Nên cần mô hình xoắn ốc,
+                    phát triển theo vòng lặp để mỗi vòng đều có kiểm thử, phân tích, đánh giá )
+
+EXERCISE3
+    Con người: Khách hàng, nhà hàng, tài xế,nhân viên, quản trị viên
+    Dữ liệu: Người dùng, món ăn, đơn hàng, địa chỉ, thanh toán, đánh giá
+    Quy trình: Đặt món - xác nhận món đơn - tài xế đi giao - nhận hàng - đánh giá
+    Phần mềm: Ứng dụng, wed đặt món, hệ thống để quản lý nhà hàng tài xế
+    Phần cứng: Diện thoại, máy tính,máy chủ, thiếu bị mạng, GPS
+
+EXERCISE4
+    Planning: Xác định mục tiêu và phạm vi, kế hoạch của ứng dụng
+
+    Analysis: Thu thập thông tin , yêu cầu của giảng viên, sinh viên và xac định chức năng cần có của ứng dụng
+
+    Design: Thiết kế giao diện và CSDL cho ứng dụng điểm danh đó
+
+    Implementation: Code, viết các logic code cho chức năng đăng nhập, điểm danh
+
+    Testing: Kiểm tra các chức năng đó, nếu có lỗi thì sửa để rồi cho người dùng dùng
+
+    Deployment & Maintenance: Cài đặt rồi dưa vào sử dụng
+
+EXERCISE5
+    Planning: Em sẽ xác định mục tiêu của hệ thống là để hỗ trợ giảng viên, sinh viên điểm danh = Qr
+                Phân công nhiệm vụ cho từng thành viên, thởi gian làm và chi phí
+
+    Requirement Analysis: Đi hỏi và thu thập những thông tin yêu cầu của giảng viên, sinh viên và phòng đào tạo.
+                            Giảng vien sẽ tạo mã Qr để cho sinh viên quét và điểm danh và phòng đào tạo sẽ theo dõi kết quả điểm danh 
+
+    System Design: Bước này sẽ đi thiết kế giao diện của hệ thống và xây dựng CSDL cho hệ thống đó
+
+EXERCISE6
+    A. Mô tả chức năng người dùng có thể thực hiện trên ứng dụng học tiếng Anh: Sơ đồ Use Case
+    B. Mô tả lớp NguoiDung, KhoaHoc, BaiHoc và quan hệ giữa chúng: Sơ đồ Class
+    C. Mô tả luồng học viên bắt đầu → vào học → làm bài → hoàn thành: Sơ đồ Activity
+    D. Mô tả cách hệ thống triển khai trên các máy chủ, thiết bị: Sơ đồ Deployment
+    E. Mô tả thứ tự tương tác giữa học viên và hệ thống khi nộp bài: Sơ đồSequence
+EXERCISE7
+    Planning: Xác định mục tiêu của dự án, người dùng , phạm vi, thời gian và ci phí
+
+    Analysis: Thu thập yêu cầu của những người đăng kí tiêm và trung tâm xác nhận lịch, quản lý danh sách tiêm đó.
+
+    Design: Thiết kế giao diện, CSDL cho hệ thống đó và luồng chạy của hệ thống đó
+
+    Implementation: Viết code cho các chức năng trong hệ thống như đăng ký, xác nhận lịch tiêm, quản lý danh sách và thông báo
+
+    Testing: Kiểm tra các chức năng đó , nếu có lỗi thì sửa lỗi đó để cho chạy đúng
+
+    Deployment & Maintenance: Đưa hệ thống vào sử dụng
+
+EXERCISE8
+    Xác định các tác nhân chính và chức năng tương ứng:
+        Học sinh: Đăng ký, tham gia các khóa học và xem điểm
+        Giẩng viên: Quản lý bài học, chấm điểm và theo dõi tiến độ học của học sinh
+        Admin: Theo dõi những báo cáo, thống kê, phân quyền và quản lý những người dùng
+    Phân loại hệ thống;
+        Hệ thống đăng ký, nộp bài và xem diểm số: TPS
+        Hệ thống để giảng viên thông kê và báo cáo: MIS
+        Hệ thống hỗ trợ vfa phân tích kết quả: DSS
+    Mô hình phát triển:
+        Mô hình Agile
+    3 sơ đồ :
+        Use Case - Class - Sequence
+
+EXERCISE9
+    Xác định các tác nhân chính và chức năng:
+        Khách hàng: Tạo đơn hàng, theo dõi trạng thái đơn hàng
+        Nhân viên vận chuyển: Cập nhật các trạng thái của đơn hàng
+        Quản lý: Theo dõi hiệu suất giao hàng, khu vực có hàng tồn đọng
+        CEO: Xem báo cáo tổng quan: doanh thu, tỉ lệ giao đúng hạn, hiệu suất nhân viên.
+    Phân loại loại hệ thống:
+        Xử lý tạo đơn, cập nhật trạng thái giao hàng: TPS
+        Tổng hợp các báo cáo, thống kê: MIS
+        Phân tích dữ liệu để dự đoán khu vực: DSS
+        CEO theo dõi số liệu tổng quan: EIS
+    Mô hình phát triển:
+        Mô hình Spiral
+    4 sơ đồ:
+        Use Case - Class - Sequence - Activity
+EXERCISE10
+Xác định các tác nhân chính và chức năng:
+    Khách hàng: Tạo đơn hàng, theo dõi trạng thái đơn hàng
+    Nhân viên vận chuyển: Cập nhật các trạng thái của đơn hàng
+    Quản lý: Theo dõi hiệu suất giao hàng, khu vực có hàng tồn đọng
+    CEO: Xem báo cáo tổng quan: doanh thu, tỉ lệ giao đúng hạn, hiệu suất nhân viên.
+Phân loại loại hệ thống:
+    Xử lý tạo đơn, cập nhật trạng thái giao hàng: TPS
+    Tổng hợp các báo cáo, thống kê: MIS
+    Phân tích dữ liệu để dự đoán khu vực: DSS
+    CEO theo dõi số liệu tổng quan: EIS
+Mô hình phát triển:
+    Mô hình Spiral
+4 sơ đồ:
+    Use Case - Class - Sequence - Activity
