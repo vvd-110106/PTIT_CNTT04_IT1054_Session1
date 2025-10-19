@@ -93,17 +93,17 @@ EXERCISE9
     4 sơ đồ:
         Use Case - Class - Sequence - Activity
 EXERCISE10
-Xác định các tác nhân chính và chức năng:
-    Khách hàng: Tạo đơn hàng, theo dõi trạng thái đơn hàng
-    Nhân viên vận chuyển: Cập nhật các trạng thái của đơn hàng
-    Quản lý: Theo dõi hiệu suất giao hàng, khu vực có hàng tồn đọng
-    CEO: Xem báo cáo tổng quan: doanh thu, tỉ lệ giao đúng hạn, hiệu suất nhân viên.
-Phân loại loại hệ thống:
-    Xử lý tạo đơn, cập nhật trạng thái giao hàng: TPS
-    Tổng hợp các báo cáo, thống kê: MIS
-    Phân tích dữ liệu để dự đoán khu vực: DSS
-    CEO theo dõi số liệu tổng quan: EIS
-Mô hình phát triển:
-    Mô hình Spiral
-4 sơ đồ:
-    Use Case - Class - Sequence - Activity
+    Xác định các tác nhân chính và chức năng:
+        Khách hàng: Tạo đơn hàng, theo dõi trạng thái đơn hàng
+        Nhân viên vận chuyển: Cập nhật các trạng thái của đơn hàng
+        Quản lý: Theo dõi hiệu suất giao hàng, khu vực có hàng tồn đọng
+        CEO: Xem báo cáo tổng quan: doanh thu, tỉ lệ giao đúng hạn, hiệu suất nhân viên.
+    Phân loại loại hệ thống:
+        Xử lý tạo đơn, cập nhật trạng thái giao hàng: TPS
+        Tổng hợp các báo cáo, thống kê: MIS
+        Phân tích dữ liệu để dự đoán khu vực: DSS
+        CEO theo dõi số liệu tổng quan: EIS
+    Mô hình phát triển:
+        Mô hình Spiral
+    4 sơ đồ:
+        Use Case - Class - Sequence - Activity
